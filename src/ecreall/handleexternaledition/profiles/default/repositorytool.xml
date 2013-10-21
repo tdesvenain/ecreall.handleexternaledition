@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<repositorytool>
+ <policies>
+  <policy name="at_edit_autoversion"
+     title="Create version on edit (AT objects only)"
+     class="Products.CMFEditions.VersionPolicies.ATVersionOnEditPolicy"/>
+  <policy name="version_on_revert" title="Create version on version revert"/>
+  <policy name="version_on_unlock"
+          title="Create version on edit but only at unlock when using external editor"
+          />
+ </policies>
+ <policymap>
+  <type name="File">
+   <policy name="version_on_unlock"/>
+   <policy name="version_on_revert"/>
+  </type>
+ </policymap>
+</repositorytool>
