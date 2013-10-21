@@ -1,0 +1,3 @@
+graft src/ecreall
+graft docs/
+include *.cfg *.rst *.in

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="ecreall.handleexternaledition"
+    interface="ecreall.handleexternaledition.interfaces.IEcreallHandleexternaleditionLayer"
+  />
+</layers>
