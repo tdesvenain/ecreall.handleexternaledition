@@ -84,7 +84,7 @@ def handle_initialized(obj, event):
 
 
 def handle_convert_document(obj, event):
-    """When a published (or already converted) file has been modified, convert it
+    """Convert document
     """
     site = getSite()
     gsettings = GlobalSettings(site)
