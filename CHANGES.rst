@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-0.2 (unreleased)
-----------------
+0.2a1 (2013-10-23)
+------------------
 
 - Nothing changed yet.
 
