@@ -9,16 +9,13 @@ from zope.i18nmessageid import MessageFactory
 from zope.component.hooks import getSite
 from zope.component.interfaces import ObjectEvent, IObjectEvent
 
-from Products.CMFCore.utils import getToolByName
-from Products.CMFCore.interfaces._events import IActionSucceededEvent
 from Products.CMFEditions.utilities import maybeSaveVersion, isObjectChanged
 from Products.CMFEditions.interfaces.IModifier import FileTooLargeToVersionError
 from Products.CMFEditions.subscriber import _getVersionComment
 from Products.CMFEditions import CMFEditionsMessageFactory as CEMF
-from Products.ATContentTypes.interfaces.file import IATFile
 from Products.Archetypes.interfaces.event import IWebDAVObjectEditedEvent
 
-from collective.documentviewer.settings import GlobalSettings, Settings
+from collective.documentviewer.settings import GlobalSettings
 from collective.documentviewer.utils import allowedDocumentType
 from collective.documentviewer.async import queueJob
 
