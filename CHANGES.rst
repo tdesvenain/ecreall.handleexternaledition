@@ -5,7 +5,11 @@ Changelog
 0.2a2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fixed profile import.
+  [thomasdesvenain]
+
+- Fixed MANIFEST.in
+  [thomasdesvenain]
 
 
 0.2a1 (2013-10-23)

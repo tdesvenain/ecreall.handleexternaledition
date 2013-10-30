@@ -1,3 +1,4 @@
-graft src/ecreall
-graft docs/
-include *.cfg *.rst *.in
+recursive-include src *
+recursive-include docs *
+include *.rst *.cfg
+global-exclude *.pyc

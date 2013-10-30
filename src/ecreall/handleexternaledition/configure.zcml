@@ -16,6 +16,14 @@
        handler=".handleedition.handle_unlock"
        />
 
+  <genericsetup:registerProfile
+      name="default"
+      title="ecreall.handleexternaledition"
+      directory="profiles/default"
+      description="Installs the ecreall.extranet package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
    <subscriber for="*
                     Products.Archetypes.interfaces.IObjectInitializedEvent"
                handler=".handleedition.handle_initialized" />
