@@ -41,6 +41,11 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'Products.Archetypes',
+        'Products.CMFEditions',
+        'Products.ExternalEditor',
+        'collective.documentviewer',
+        'collective.monkeypatcher',
         'plone.api',
         'setuptools',
     ],
