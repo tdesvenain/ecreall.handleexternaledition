@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.2a2 (unreleased)
+0.2a2 (2013-12-02)
 ------------------
 
 - Fixed profile import.

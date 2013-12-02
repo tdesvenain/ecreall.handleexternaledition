@@ -19,7 +19,7 @@ long_description = (
 
 setup(
     name='ecreall.handleexternaledition',
-    version='0.2a2.dev0',
+    version='0.2a2',
     description="Avoid documentviewer and history generation when we save during a zopeedit session",
     long_description=long_description,
     # Get more from http://pypi.python.org/pypi?%3Aaction=list_classifiers
