@@ -11,3 +11,8 @@ When you use zope external editor with some features, you can have great issues:
   at the end of the session
 
 That's what this product is dedicated to.
+
+- This creates a policy version_on_unlock : the content history is not saved at edition when you are in a webdav session,
+  but at onlock.
+- The document viewer will be regenerated each time it is modified excepted if you are in a webdav session : 
+  it will be regenerated at unlock. REMOVE AUTO CONVERT OPTION on documentviewer control panel.
